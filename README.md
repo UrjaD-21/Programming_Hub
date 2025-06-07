@@ -3,6 +3,14 @@
 > ✨ *One hub. Many languages. A journey from “Hello, World!” to building real things.*  
 > 📖 This is not just a code dump — it's a **living record** of my evolving skills and curiosity.
 
+
+## 📂 Contents
+
+- [🔵 C](#🔵-c)
+- [🔷 C++](#🔷-c++)
+- [🐍 Python](#🐍-python)
+- [📚 Notes Collection](#📚-programming-notes-collection)
+
 ---
 
 ## 🚀 Welcome Aboard!
@@ -48,6 +56,17 @@ By learning C, I’m training myself to **think like the machine**: every pointe
 
 > 💡 *C helps you understand what's happening under the hood. It’s raw, powerful, and the best way to learn about memory management, bitwise operations, and efficiency.*
 
+---
+
+### 🔗 Quick Links
+
+- [🛠️ Setup & Hello World](./C%20Language/C_Setup.md)
+- [🔢 Data Types & Variables](./C%20Language/Variables_DataTypes.md)
+- [🔀 Control Flow](./C%20Language/Control_Statements.md)
+- [🔂 Loops](./C%20Language/Loops.md)
+- [🔧 Functions & Recursion](./C%20Language/Functions_Recursion.md)
+
+---
 
 ### 📘 C Language Learning Goals + Assignments
 
