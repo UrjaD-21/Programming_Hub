@@ -60,7 +60,7 @@ By learning C, I’m training myself to **think like the machine**: every pointe
 
 ### 🔗 Quick Links
 
-- [🛠️ Setup & Hello World](./C%20Language/C_Setup.md)
+- [🛠️ Setup & Hello World](./C%20Language/CHAPTER1.md)
 - [🔢 Data Types & Variables](./C%20Language/Variables_DataTypes.md)
 - [🔀 Control Flow](./C%20Language/Control_Statements.md)
 - [🔂 Loops](./C%20Language/Loops.md)
