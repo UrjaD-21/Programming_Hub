@@ -11,15 +11,19 @@
 
 Variable is the name of a memory location which stores some data.
 
+   **Memory**
+   
 ```
-+------+------+------+------+------+------+
-|      |  25  |      |      |  S   |      |
-+------+------+------+------+------+------+
-          a                    b
+    ------+------+------+------+------+------+------+------+
+    |     |      |      |  25  |      |      |  S   |      |
+    ------+------+------+------+------+------+------+------+
+                            a                    b
 ```
-a = 25
-b = 5
+          
+- a = 25
+- b = 5
 
+Example of Storing the 
   ```c
   int main() {
     int a = 25;    // Variable name is "a" and stored value is 25 !!
