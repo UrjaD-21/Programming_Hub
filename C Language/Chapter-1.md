@@ -259,3 +259,111 @@ int main() {
 
 ---
 
+## ****
+
+***💡 What is Compilation?***
+>> 🧠 Compilation is the process of converting your C source code (human-readable) into machine code (computer-understandable) so the program can be executed.
+>> It is done using a special program called a compiler.
+
+--
+
+**🔄 Compilation Cycle in C**
+- The process happens in multiple stages, not just one "magic" step.
+Here’s the full journey from your .c file to the output:
+
+- ```
+       ┌────────────┐      ┌────────────┐      ┌────────────┐      ┌────────────┐
+     │  Source    │ ---> │  Preprocessor│ --->│ Compiler    │ --->│ Linker      │
+     │  Code (.c) │      │  (e.g., #include)│   │ (Assembly code)│   │ (Executable)│
+     └────────────┘      └────────────┘      └────────────┘      └────────────┘
+  ```
+
+--
+  
+**🔍 Compilation Stages (Simplified)**
+
+| Stage            | What Happens                              | File Generated                            |
+| ---------------- | ----------------------------------------- | ----------------------------------------- |
+| 🛠 Preprocessing | Handles `#include`, `#define`, etc.       | `.i` file                                 |
+| 🧬 Compilation   | Converts preprocessed code to Assembly    | `.s` file                                 |
+| 🧱 Assembling    | Assembles into Machine code (Object File) | `.o` or `.obj` file                       |
+| 🔗 Linking       | Combines all code and libraries           | `.exe` (on Windows) or executable (Linux) |
+
+--
+
+**🗂️ Example with gcc Compiler (Linux)*
+
+Suppose you have a file named program.c.
+
+```bash
+gcc program.c -o program
+```
+
+- `gcc` → the compiler
+
+- `program.c` → your source file
+
+- `-o program` → tells compiler the output file should be named program
+
+- To run the program:
+```bash
+./program
+```
+🖥️ Output will be displayed on terminal!
+
+--
+
+**🧠 Quick Tip: Use Comments for Compilation Info**
+
+You can also document the compile command like this:
+```c
+/*
+    To compile this program:
+    gcc area.c -o area
+    ./area
+*/
+```
+> ***✅ Example Code:***
+> ```c
+> /*
+    Program: Addition
+    Author: Urja Doshi
+    Date: 18-06-2025
+    Description: Demonstrates compilation of a simple program.
+    To compile: gcc addition.c -o addition
+    */
+    
+    #include <stdio.h>
+    int main() {
+      int a = 5, b = 7;
+      int sum = a + b;
+      printf("Sum = %d", sum);
+      return 0;
+     }
+
+--
+
+**⚠️ Common Errors During Compilation**
+
+| Error                 | Cause                                  |
+| --------------------- | -------------------------------------- |
+| `undefined reference` | Missing function or not linked         |
+| `missing semicolon`   | Syntax error                           |
+| `undeclared variable` | Variable used before declaration       |
+| `missing header`      | Forgot to `#include` necessary library |
+
+--
+
+**🧩 Mini Exercise**
+
+- Write and compile a program to:
+
+- Multiply two numbers
+
+- Document it properly with compilation steps
+
+
+
+
+
+  
