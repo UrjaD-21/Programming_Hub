@@ -356,7 +356,7 @@ You can also document the compile command like this:
 
 **🧩 Mini Exercise**
 
-- Write and compile a program to:
+Write and compile a program to:
 
 - Multiply two numbers
 
