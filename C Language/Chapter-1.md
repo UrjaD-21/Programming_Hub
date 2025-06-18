@@ -9,7 +9,7 @@
 
 - 💬 Comments
 
-- 🏗️ Structure
+- 🏗️ Structure [Click Here to learn more!!](https://github.com/UrjaD-21/Programming_Hub/blob/main/C%20Language/Structure-of-C.md)
 
 - ⚙️ Compilation
 
@@ -145,7 +145,119 @@ volatile  while
 
 ---
 
-## **💬 Comments**
+## **💬 Comments & Documentation**
 
->> 
+***📚 1. What are Comments in C?***
+>> 🗣️ Comments are non-executable statements that help explain your code.
+They are ignored by the compiler, meaning they don’t affect your program’s output or logic.
+
+--
+
+***📌 2. Why Use Comments?***
+
+| Purpose              | Benefit                                 |
+| -------------------- | --------------------------------------- |
+| 📖 Explain the code  | Helps you and others understand logic   |
+| 🧪 Debug the code    | Temporarily disable code blocks         |
+| 🧠 Self-reminder     | Future-you will thank you!              |
+| 📄 Add documentation | Attach program info, like author & date |
+
+--
+
+***📋 3. Types of Comments***
   
+**🟦 Single-line Comment (`//`)**
+- Starts with // and goes till the end of the line.
+- Best for short notes or explaining a line.
+  
+- ```c
+  #include <stdio.h>
+  int main() {
+    int side = 5; // Length of one side of square
+    int area = side * side; // Calculating area
+    printf("Area = %d", area);
+    return 0;
+  }
+  ```
+--
+
+**🟩 Multi-line Comment (`/* ... */`)**
+- Can span multiple lines.
+- Great for explaining large blocks or adding documentation.
+
+- ```c
+  /*
+    Program: Area Calculator
+    Author: Urja Doshi
+    Created on: 18-06-2025
+    Description: This program calculates the area of a square.
+  */
+  #include <stdio.h>
+  int main() {
+    int side = 4;
+    int area = side * side;
+    printf("Area = %d", area);
+    return 0;
+  }
+  ```
+--
+
+  ***📝 4. Documentation Using Comments***
+
+  >> Documentation is a special comment section at the top of your program that includes:
+
+| 🔍 Detail    | 🧾 Example                     |
+| ------------ | ------------------------------- |
+| Program Name | Area Calculator                 |
+| Description  | Calculates the area of a square |
+| Programmer   | Urja Doshi                      |
+| Date & Time  | 18-06-2025, 9:00 PM             |
+
+
+*📌 Recommended Format (Multi-line)*
+
+```c
+/*
+    📌 Program: Area Calculator
+    📌 Author: Urja Doshi
+    📌 Date: 18-06-2025
+    📌 Description: Calculates area of a square using side*side
+*/
+```
+
+*📌 Alternative Format (Single-line)*
+
+```c
+// Program: Area Calculator | Author: Urja | Date: 18-06-2025
+```
+--
+
+**⚠️ Common Mistakes to Avoid**
+
+❌ Writing incorrect/outdated comments.
+
+❌ Over-commenting obvious code:
+
+```c
+int x = 10; // x is 10 → (Too obvious!)
+```
+❌ Forgetting to update the author/date in documentation.
+
+--
+
+**🛠️ Practice Challenge**
+
+🧩 Try writing documentation and comments for this program:
+
+```c
+#include <stdio.h>
+int main() {
+    int a = 6, b = 3;
+    int product = a * b;
+    printf("Product = %d", product);
+    return 0;
+}
+```
+
+---
+
