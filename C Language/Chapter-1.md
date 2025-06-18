@@ -54,16 +54,14 @@ _- Data type must match the kind of value you want to store (like int, char, flo
 _- Always initialize variables to avoid garbage values 🗑️._
 
 
-> ## Rules :
-
+> ### ***Rules :***
 > - Variables are case sensitive
 > - 1st character is alphabet or '_'
 > - No comma/blank space
 > - No other symbol except '_'
 
-> ## 📏 C Data Types and Their Sizes (in Bytes)
+> ### ***📏 C Data Types and Their Sizes (in Bytes)***
 > A handy reference table for sizes of various C data types 💻📚:
-> 
 > | 🧾 **Data Type**                        | 📦 **Size (Bytes)** |
 > |-----------------------------------------|---------------------|
 > | 🔤 Char or signed char                  | 1                   |
