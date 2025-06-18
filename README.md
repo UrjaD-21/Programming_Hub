@@ -76,8 +76,9 @@ By learning C, I’m training myself to **think like the machine**: every pointe
 - 🧪 **Practice:**
   - [ ] Write a "Hello, World!" program.
   - [ ] Print your name, age, and college using `printf()`.
+    
+    
     ![Once more](https://github.com/user-attachments/assets/02d1f6fd-b71e-43ae-aee3-9c3cfef6322c)
-
 
 - 📚 **Assignment:**
   - [ ] Create a greeting generator that asks for the user’s name and displays a welcome message.
