@@ -6,7 +6,7 @@
 
 ## 📂 Contents
 
-- [🔵 C](#🔵-c)
+- [🔵 C](#🔵-C-Language)
 - [🔷 C++](#🔷-c++)
 - [🐍 Python](#🐍-python)
 - [📚 Notes Collection](#📚-programming-notes-collection)
