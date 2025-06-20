@@ -127,7 +127,7 @@ _🔹 What is **Control Flow**?_
 > }
 > ```
 
-### **🔁 b. while Loop
+### **🔁 b. while Loop**
 > Used when the **number of iterations** is **not known in advance**.
 
 > **Syntax:**
