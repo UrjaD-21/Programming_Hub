@@ -6,7 +6,7 @@
 
 ## 📂 Contents
 
-- [🔵C Language](https://github.com/UrjaD-21/Programming_Hub/tree/main/C%20Language))
+- [🔵C Language](https://github.com/UrjaD-21/Programming_Hub/tree/main/C%20Language)
 - [🔷 C++](#🔷-c++)
 - [🐍 Python](#🐍-python)
 - [📚 Notes Collection](#📚-programming-notes-collection)
