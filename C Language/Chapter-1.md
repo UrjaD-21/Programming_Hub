@@ -259,7 +259,7 @@ int main() {
 
 ---
 
-## ****
+## **⚙️ Compilation**
 
 ***💡 What is Compilation?***
 >> 🧠 Compilation is the process of converting your C source code (human-readable) into machine code (computer-understandable) so the program can be executed.
