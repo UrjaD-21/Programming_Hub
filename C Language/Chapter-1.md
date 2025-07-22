@@ -271,12 +271,12 @@ int main() {
 - The process happens in multiple stages, not just one "magic" step.
 Here’s the full journey from your .c file to the output:
 
-- ```
-       ┌────────────┐      ┌────────────┐      ┌────────────┐      ┌────────────┐
-     │  Source    │ ---> │  Preprocessor│ --->│ Compiler    │ --->│ Linker      │
-     │  Code (.c) │      │  (e.g., #include)│   │ (Assembly code)│   │ (Executable)│
-     └────────────┘      └────────────┘      └────────────┘      └────────────┘
-  ```
+> ```sql
+>      ┌────────────┐      ┌─────────────────────┐      ┌────────────────────┐      ┌───────────────┐
+>      │  Source    │ ---> │  Preprocessor       │ ---> │ Compiler           │ ---> │ Linker        │
+>      │  Code (.c) │      │  (e.g., #include)   │      │ (Assembly code)    │      │ (Executable)  │
+>      └────────────┘      └─────────────────────┘      └────────────────────┘      └───────────────┘
+> ```
 
 --
   
