@@ -60,7 +60,7 @@ _- Always initialize variables to avoid garbage values 🗑️._
 > - No comma/blank space
 > - No other symbol except '_'
 
-> ### ***📏 C Data Types and Their Sizes (in Bytes)***
+#### ***📏 C Data Types and Their Sizes (in Bytes)***
 > A handy reference table for sizes of various C data types 💻📚:
 > | 🧾 **Data Type**                        | 📦 **Size (Bytes)** |
 > |-----------------------------------------|---------------------|
